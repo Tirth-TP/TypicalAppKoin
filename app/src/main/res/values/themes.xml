@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TypicalAppKoin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.TypicalAppKoin" parent="Base.Theme.TypicalAppKoin">
+    <item name="android:windowSplashScreenBackground">@color/black</item>
+    <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+    <item name="android:windowSplashScreenIconBackgroundColor">@color/white</item>
+    <item name="postSplashScreenTheme">@style/Theme.TypicalAppKoin</item>
+    </style>
+</resources>
